@@ -1,0 +1,21 @@
+{
+    "name": "YouTube Playlist Length",
+    "version": "1.0.0",
+    "description": "Chrome based extension to show the Length of a youtube playlist",
+    "manifest_version": 3,
+    "action": {
+        "default_title": "YouTube Playlist Length",
+        "default_popup": "index.html",
+        "default_icon": {
+            "16": "public/res/yt-icon-16.ico",
+            "48": "public/res/yt-icon-48.ico",
+            "128": "public/res/yt-icon-128.ico"
+        }
+    },
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ]
+}
+
+
