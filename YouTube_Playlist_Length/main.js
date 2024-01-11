@@ -2,7 +2,7 @@ callCalculate = (tab) => {
   const { id, url } = tab;
   if (
     url.indexOf("https://www.youtube.com/playlist?") > -1 ||
-    url.match(/^.*(youtu.be\/|list=)([^#\&\?]*).*/)
+    url.match(/^.*(youtu.be\/|list=)([^#\&\?]*).*/) //regular expression for yt
   ) {
     chrome.scripting.executeScript({
       target: { tabId: id },

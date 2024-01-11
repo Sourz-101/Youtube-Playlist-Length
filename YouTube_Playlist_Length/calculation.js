@@ -7,6 +7,8 @@ var totalTime = {
 var vidCount = 0;
 var windowType;
 
+let allPlaylistVideos;
+
 if (window.location.href.includes("playlist")) {
   allPlaylistVideos = document.querySelectorAll("ytd-playlist-video-renderer");
   windowType = "playlist";
@@ -16,6 +18,7 @@ if (window.location.href.includes("playlist")) {
   );
   windowType = "panel";
 }
+
 
 
 //to calculate time

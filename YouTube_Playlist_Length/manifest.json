@@ -7,9 +7,9 @@
         "default_title": "YouTube Playlist Length",
         "default_popup": "index.html",
         "default_icon": {
-            "16": "public/res/yt-icon-16.ico",
-            "48": "public/res/yt-icon-48.ico",
-            "128": "public/res/yt-icon-128.ico"
+            "16": "public/yt-icon-16.png",
+            "48": "public/yt-icon-48.png",
+            "128": "public/yt-icon-128.png"
         }
     },
     "permissions": [
